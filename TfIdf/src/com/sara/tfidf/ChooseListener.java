@@ -10,7 +10,7 @@ import javax.swing.JTextField;
 public class ChooseListener implements ActionListener {
 
 	private JTextField _textField;
-	File currenDir = new File("C:\\Users\\E6430\\Documents\\Corpus");
+	File currenDir = new File("CorpusDirectory");
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
